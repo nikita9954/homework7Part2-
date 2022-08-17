@@ -1,4 +1,4 @@
-public abstract class huwan {
+public abstract class Human {
     public abstract void myFunction();
 
     void say() {
