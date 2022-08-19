@@ -1,6 +1,11 @@
-public class Directory extends Human {
+public class Directory extends Human implements JobTitle{
     @Override
-    public void myFunction() {
-        System.out.println("Я директор");
+    public void say() {
+        System.out.println("Я человек");
+    }
+
+    @Override
+    public void jobTitle() {
+        System.out.println("Я директор ");
     }
 }

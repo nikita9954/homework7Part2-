@@ -1,6 +1,11 @@
-public class Worker extends Human {
+public class Worker extends Human implements JobTitle{
     @Override
-    public void myFunction() {
-        System.out.println(" Я Рабочий");
+    public void say() {
+        System.out.println(" Я человек");
+    }
+
+    @Override
+    public void jobTitle() {
+        System.out.println("Я рабочий");
     }
 }

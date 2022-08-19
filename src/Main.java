@@ -3,11 +3,11 @@ public class Main {
         Directory directory = new Directory();
         Worker worker = new Worker();
         Accountant accountant = new Accountant();
-        directory.myFunction();
         directory.say();
-        worker.myFunction();
+        directory.jobTitle();
         worker.say();
-        accountant.myFunction();
+        worker.jobTitle();
         accountant.say();
+        accountant.jobTitle();
     }
 }
